@@ -1,0 +1,1 @@
+/home/hunter/jun_ws/devel/.private/smb_description/lib/pkgconfig/smb_description.pc

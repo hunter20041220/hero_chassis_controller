@@ -1,0 +1,12 @@
+[01m[K/home/hunter/jun_ws/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In member function ‘[01m[Kstd::string hero_chassis_controller::HeroChassisController::getJointName()[m[K’:
+[01m[K/home/hunter/jun_ws/src/hero_chassis_controller/src/hero_chassis_controller.cpp:60:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_[m[K’ was not declared in this scope
+   60 |         return [01;31m[Kjoint_[m[K.getName();
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/hunter/jun_ws/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In member function ‘[01m[Kvirtual void hero_chassis_controller::HeroChassisController::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/hunter/jun_ws/src/hero_chassis_controller/src/hero_chassis_controller.cpp:83:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_[m[K’ was not declared in this scope
+   83 |         double error = command_ - [01;31m[Kjoint_[m[K.getVelocity();
+      |                                   [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/simple_chassis_controller.dir/build.make:76：CMakeFiles/simple_chassis_controller.dir/home/hunter/jun_ws/src/hero_chassis_controller/src/hero_chassis_controller.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:225：CMakeFiles/simple_chassis_controller.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

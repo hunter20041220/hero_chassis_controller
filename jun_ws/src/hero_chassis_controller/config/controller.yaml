@@ -1,0 +1,19 @@
+controller:
+  hero_chassis_controller:
+    type: hero_chassis_controller/HeroChassisController
+
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  pid_param:
+      p: 0.002
+      i: 7.8
+      d: 10.3
+      i_max: 0.0
+      i_min: -0.0
+
+  chasis_message:
+    wheel_base: 0.4
+    wheel_tread: 0.4
+    wheel_radius: 0.07625

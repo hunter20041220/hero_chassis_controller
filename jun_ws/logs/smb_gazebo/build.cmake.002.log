@@ -1,0 +1,2 @@
+Not searching for unused variables given on the command line.
+CMake Error: The source "/home/hunter/jun_ws/src/smb_common_v2/smb_gazebo/CMakeLists.txt" does not match the source "/home/hunter/jun_ws/src/smb_gazebo/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
